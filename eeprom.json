@@ -1,0 +1,36 @@
+{"Header": 
+  { "Schema Version": 
+    {
+      "Number of Bytes" : 1,
+      "Number of Fields": 1,
+      "Default Data" : [1],
+      "Pre-Programmed" : true,
+      "Notes" : "" 
+    }
+  },
+  "Manufacturing Area": 
+  { "Product ID":
+    { 
+      "Number of Bytes" : 32,
+      "Number of Fields": 1,
+      "Default Data" : [0,1,2,3,4],
+      "Pre-Programmed" : true,
+      "Notes" : "To be front padded with zeros"
+    },  
+    "Serial Number": 
+    {
+      "Number of Bytes" : 16,
+      "Number of Fields": 1,
+      "Default Data" : [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1],
+      "Pre-Programmed" : false,
+      "Notes" : ""
+    },
+    "Blank": {
+      "Number of Bytes" : 1,
+      "Number of Fields": 1,
+      "Default Data" : [0],
+      "Pre-Programmed" : true,
+      "Notes" : "Spare field for easy copy/paste"
+    } 
+  }
+}
